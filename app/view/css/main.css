@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+html {
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+        background-color: rgb(113, 212, 238);
+        box-shadow: inset 0px 0px 50px rgb(82, 129, 109);
+}
+
+body {
+    padding-top: 50px;
+}
+
+.motivational-div {
+    padding : 30px;
+    font-size: 28px;
+}
