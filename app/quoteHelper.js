@@ -10,13 +10,13 @@ module.exports = (function() {
             });
         }
 
-        static _writeToObjectAsync(data, callback) {
+        static _writeToObjectAsync(quote, callback) {
             fs.readFile(__dirname + '/quotes.json', 'utf8', (err, data) => {
                 if(err) throw err;
-                let json = JSON.parse(data).content;
-                json.push(data);
+                let json = JSON.parse(data);
+                json.content.push(quote);
 
-                fs.writeFile(__dirname + '/quotes.json', JSON.stringify(json), 'utf8', (err) => {
+                fs.writeFile(__dirname + '/quotes.json', JSON.stringify(quote), 'utf8', (err) => {
                     callback(err);
                 });
             });

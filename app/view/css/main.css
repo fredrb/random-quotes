@@ -3,8 +3,21 @@
 html {
     text-align: center;
     font-family: 'Open Sans Condensed';
-        background-color: rgb(113, 212, 238);
-        box-shadow: inset 0px 0px 50px rgb(82, 129, 109);
+    background-color: rgb(189, 255, 227);
+    box-shadow: inset 0px 0px 20px rgb(82, 92, 129);
+
+}
+
+@media (min-width: 400px) {
+    html { box-shadow: inset 0px 0px 80px rgb(82, 92, 129); }
+}
+
+@media (min-width: 800px) {
+    html { box-shadow: inset 0px 0px 200px rgb(82, 92, 129); }
+}
+
+@media (min-width: 1400px) {
+    html { box-shadow: inset 0px 0px 600px rgb(82, 92, 129); }
 }
 
 body {
@@ -14,4 +27,12 @@ body {
 .motivational-div {
     padding : 30px;
     font-size: 28px;
+}
+
+@media screen and (max-width: 400) {
+    .motivational-div {
+        padding: 15px;
+        padding-top: 39px;
+        font-size: 28px;
+    }
 }
