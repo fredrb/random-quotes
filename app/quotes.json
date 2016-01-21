@@ -1,32 +1,15 @@
 {
     "content" : [
         {
-            "author" : "Charles R. Swindoll",
-            "text" : "Life is 10% what happens to you and 90% how you react to it."
+            "author":"Charles R. Swindoll",
+            "text":"Life is 10% what happens to you and 90% how you react to it."
         },
-        {
-            "author" : "William E. Gladstone",
-            "text" : "We look forward to the time when the Power of Love will replace the Love of Power. Then will our world know the blessings of peace."
-        },
-        {
-            "author" : "Maurice Switzer",
-            "text" : "It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it."
-        },
-        {
-            "author" : "Jim Rohn",
-            "text" : "Either you run the day, or the day runs you."
-        },
-        {
-            "author" : "Bob Monkhouse",
-            "text" : "When I die, I want to go peacefully like my grandfather did–in his sleep. Not yelling and screaming like the passengers in his car."
-        },
-        {
-            "author" : "Someone in a bar",
-            "text" : "When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down “happy.” They told me I didn’t understand the assignment, and I told them they didn’t understand life."
-        },
-        {
-            "author" : "Alan Rickman",
-            "text" : "If only life could be a little more tender and art a little more robust"
-        }
+        {"author":"William E. Gladstone","text":"We look forward to the time when the Power of Love will replace the Love of Power. Then will our world know the blessings of peace."},
+        {"author":"Maurice Switzer","text":"It is better to remain silent at the risk of being thought a fool, than to talk and remove all doubt of it."},
+        {"author":"Jim Rohn","text":"Either you run the day, or the day runs you."},
+        {"author":"Bob Monkhouse","text":"When I die, I want to go peacefully like my grandfather did–in his sleep. Not yelling and screaming like the passengers in his car."},
+        {"author":"Someone in a bar","text":"When I was 5 years old, my mother always told me that happiness was the key to life. When I went to school, they asked me what I wanted to be when I grew up. I wrote down “happy.” They told me I didn’t understand the assignment, and I told them they didn’t understand life."},
+        {"author":"Alan Rickman","text":"If only life could be a little more tender and art a little more robust"}
     ]
+
 }

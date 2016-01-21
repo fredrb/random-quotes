@@ -1,0 +1,17 @@
+html
+    head
+        title Random quotes
+        style
+            include css/main.css
+    body
+        form(action='/new' method='post' class='new-form')
+            b Author
+            br
+            input(type="text" name="author")
+            br
+            b Text
+            br
+            textarea(name="text")
+            br
+            input(type="submit" value="Submit")
+            
