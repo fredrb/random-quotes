@@ -21,6 +21,17 @@ module.exports = (function() {
                 });
             });
         }
+
+        static phrase(callback) {
+            fs.readFile(__dirname + '/quotes.json', 'utf8', (err,data) => {
+                if(err) throw err;
+                let obj = JSON.parse(data).content;
+                let magicNumber = Math.random() * obj.length;
+
+                callback(obj[Math.floor(magicNumber)].author,
+                    obj[Math.floor(magicNumber)].text);
+            });
+        }
     }
 
     return QuoteHelper;
