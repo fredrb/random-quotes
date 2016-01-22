@@ -15,21 +15,22 @@ module.exports = (function() {
     app.get('/', (req, res) => {
         QuoteHelper.phrase((author, text) => {
             res.render('index', {
-                authorName : author,
-                testField : text
+                title : 'Quotes',
+                author : author,
+                text : text
             });
         });
     });
 
-    app.get('/new', (req, res) => { res.render('new'); });
+    app.get('/new', (req, res) => { res.render('new', { title : 'New quote'}); });
 
     app.post('/new', (req, res) => {
         QuoteHelper.addPhrase(req.body.author, req.body.text, (err, data) => {
-            // show error page
+            // show error page & result page
             if(err) throw err;
             res.send('Added new quote');
         });
     });
-    
+
     return app;
 })();

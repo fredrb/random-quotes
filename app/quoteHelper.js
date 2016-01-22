@@ -16,7 +16,7 @@ module.exports = (function() {
                 let json = JSON.parse(data);
                 json.content.push(quote);
 
-                fs.writeFile(__dirname + '/quotes.json', JSON.stringify(quote), 'utf8', (err) => {
+                fs.writeFile(__dirname + '/quotes.json', JSON.stringify(json), 'utf8', (err) => {
                     callback(err);
                 });
             });
